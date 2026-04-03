@@ -1,1 +1,6 @@
-
+streamlit
+pandas
+weasyprint
+jinja2
+supabase
+python-dotenv
