@@ -1,1 +1,20 @@
-
+[
+  {
+    "name": "Back Pain",
+    "keyword": "back",
+    "medicine": "Paracetamol",
+    "test": "X-ray if persistent",
+    "exercise": "Back stretching 10 min/day",
+    "food": "Milk, fish, spinach",
+    "doctor": "Orthopedic"
+  },
+  {
+    "name": "Headache",
+    "keyword": "headache",
+    "medicine": "Ibuprofen",
+    "test": "Blood pressure check",
+    "exercise": "Neck stretch",
+    "food": "Water, fruits",
+    "doctor": "General"
+  }
+]
