@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Garments AI Doctor - Doctor Entry</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<h2>Doctor Entry Form</h2>
+
+<form id="doctorForm">
+
+<h3>Employee Information</h3>
+<input name="name" placeholder="Patient Name" required>
+<input name="employee_id" placeholder="Employee ID" required>
+<input name="age" type="number" placeholder="Age">
+<input name="gender" placeholder="Gender">
+<input name="height" type="number" placeholder="Height (cm)">
+<input name="weight" type="number" placeholder="Weight (kg)">
+<input name="bp" placeholder="Blood Pressure">
+<input name="department" placeholder="Department">
+<input name="line" placeholder="Line">
+
+<h3>Symptoms</h3>
+<input name="primary_symptom" placeholder="Primary Symptom">
+<input name="secondary_symptom" placeholder="Secondary Symptom">
+<input name="pain_level" type="number" placeholder="Pain Level 1-10">
+<input name="duration" placeholder="Duration (days)">
+
+<h3>Work Condition</h3>
+<select name="work_position">
+<option value="sitting">Sitting</option>
+<option value="standing">Standing</option>
+</select>
+<input name="overtime_hours" type="number" placeholder="Overtime Hours">
+<input name="repetitive_work" type="number" placeholder="Repetitive Work Count">
+<input name="stress_level" type="number" placeholder="Stress Level 1-10">
+
+<h3>Lifestyle</h3>
+<input name="sleep_hours" type="number" placeholder="Sleep Hours">
+<input name="water_intake" type="number" placeholder="Water Intake (liters)">
+<select name="smoking">
+<option value="no">No</option>
+<option value="yes">Yes</option>
+</select>
+<input name="exercise_hours" type="number" placeholder="Exercise Hours per week">
+
+<button type="submit">Run AI Doctor</button>
+
+</form>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
